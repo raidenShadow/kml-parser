@@ -1,0 +1,22 @@
+{
+  "name": "util",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./bin/index.ts",
+    "dev": "nodemon ./bin/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "@types/xml2js": "^0.4.5",
+    "xml2js": "^0.4.23"
+  }
+}
